@@ -1,4 +1,5 @@
-# claculator.....................................
+# claculator by mahmoud badwy
+#facebook : https://www.facebook.com/mahmoud.badwy25
 
 from tkinter import*
 
@@ -109,5 +110,8 @@ decimal.grid(row=3,column=1)
 
 clear = Button(window, text='clear', height=4, width=12, font=35, command=clear)
 clear.pack()
+
+name_dev = Label(window, text='develop by Mahmoud Badwy', font=25, bg="white", width=24, height=2)
+name_dev.pack()
 
 window.mainloop()
